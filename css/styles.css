@@ -148,13 +148,37 @@ p {
 
 /* Media Query  */
 @media (max-width: 1200px) {
-  .iphone {
+  .title-image {
     position: static;
     width: 60%;
     transform: rotate(0);
   }
 
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
+}
+
+@media (max-width: 700px) {
+  .big-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .pricing-text {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
 }
